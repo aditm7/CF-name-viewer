@@ -18,13 +18,11 @@
 		DB1DD1FD27AD2E7F00273A13 /* CF-name-viewer Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DB1DD1FC27AD2E7F00273A13 /* CF-name-viewer Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DB1DD20227AD2E7F00273A13 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1DD20127AD2E7F00273A13 /* SafariWebExtensionHandler.swift */; };
 		DB1DD20527AD2E7F00273A13 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = DB1DD20427AD2E7F00273A13 /* _locales */; };
-		DB1DD20727AD2E7F00273A13 /* images in Resources */ = {isa = PBXBuildFile; fileRef = DB1DD20627AD2E7F00273A13 /* images */; };
 		DB1DD20927AD2E7F00273A13 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = DB1DD20827AD2E7F00273A13 /* manifest.json */; };
-		DB1DD20B27AD2E7F00273A13 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = DB1DD20A27AD2E7F00273A13 /* background.js */; };
-		DB1DD20D27AD2E7F00273A13 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = DB1DD20C27AD2E7F00273A13 /* content.js */; };
-		DB1DD20F27AD2E7F00273A13 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = DB1DD20E27AD2E7F00273A13 /* popup.html */; };
-		DB1DD21127AD2E7F00273A13 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = DB1DD21027AD2E7F00273A13 /* popup.css */; };
-		DB1DD21327AD2E7F00273A13 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = DB1DD21227AD2E7F00273A13 /* popup.js */; };
+		DB1DD22327AD2ED600273A13 /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB1DD21F27AD2ED600273A13 /* jquery.min.js */; };
+		DB1DD22427AD2ED600273A13 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = DB1DD22027AD2ED600273A13 /* icons */; };
+		DB1DD22527AD2ED600273A13 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = DB1DD22127AD2ED600273A13 /* script.js */; };
+		DB1DD22627AD2ED600273A13 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = DB1DD22227AD2ED600273A13 /* _locales */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,15 +64,13 @@
 		DB1DD1FC27AD2E7F00273A13 /* CF-name-viewer Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CF-name-viewer Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB1DD20127AD2E7F00273A13 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		DB1DD20427AD2E7F00273A13 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
-		DB1DD20627AD2E7F00273A13 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		DB1DD20827AD2E7F00273A13 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		DB1DD20A27AD2E7F00273A13 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
-		DB1DD20C27AD2E7F00273A13 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		DB1DD20E27AD2E7F00273A13 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		DB1DD21027AD2E7F00273A13 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		DB1DD21227AD2E7F00273A13 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		DB1DD21427AD2E7F00273A13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB1DD21527AD2E7F00273A13 /* CF_name_viewer_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CF_name_viewer_Extension.entitlements; sourceTree = "<group>"; };
+		DB1DD21F27AD2ED600273A13 /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.min.js; sourceTree = "<group>"; };
+		DB1DD22027AD2ED600273A13 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
+		DB1DD22127AD2ED600273A13 /* script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		DB1DD22227AD2ED600273A13 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,13 +149,11 @@
 			isa = PBXGroup;
 			children = (
 				DB1DD20427AD2E7F00273A13 /* _locales */,
-				DB1DD20627AD2E7F00273A13 /* images */,
+				DB1DD22227AD2ED600273A13 /* _locales */,
+				DB1DD22027AD2ED600273A13 /* icons */,
+				DB1DD21F27AD2ED600273A13 /* jquery.min.js */,
+				DB1DD22127AD2ED600273A13 /* script.js */,
 				DB1DD20827AD2E7F00273A13 /* manifest.json */,
-				DB1DD20A27AD2E7F00273A13 /* background.js */,
-				DB1DD20C27AD2E7F00273A13 /* content.js */,
-				DB1DD20E27AD2E7F00273A13 /* popup.html */,
-				DB1DD21027AD2E7F00273A13 /* popup.css */,
-				DB1DD21227AD2E7F00273A13 /* popup.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -258,14 +252,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB1DD20B27AD2E7F00273A13 /* background.js in Resources */,
-				DB1DD21127AD2E7F00273A13 /* popup.css in Resources */,
-				DB1DD20F27AD2E7F00273A13 /* popup.html in Resources */,
-				DB1DD20727AD2E7F00273A13 /* images in Resources */,
+				DB1DD22327AD2ED600273A13 /* jquery.min.js in Resources */,
+				DB1DD22527AD2ED600273A13 /* script.js in Resources */,
+				DB1DD22427AD2ED600273A13 /* icons in Resources */,
+				DB1DD22627AD2ED600273A13 /* _locales in Resources */,
 				DB1DD20927AD2E7F00273A13 /* manifest.json in Resources */,
 				DB1DD20527AD2E7F00273A13 /* _locales in Resources */,
-				DB1DD20D27AD2E7F00273A13 /* content.js in Resources */,
-				DB1DD21327AD2E7F00273A13 /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

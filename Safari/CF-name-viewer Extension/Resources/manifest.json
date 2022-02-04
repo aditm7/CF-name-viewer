@@ -1,0 +1,18 @@
+{
+    "name": "CF-name-viewer",
+    "version": "1.0",
+    "description": "Replaces handles with the names",
+    "content_scripts": [{
+        "matches": ["https://codeforces.com/contest/*/standings/friends/true", "https://codeforces.com/contest/*/standings"],
+        "run_at": "document_end",
+        "js": ["jquery.min.js", "script.js"]
+    }],
+    "icons": {
+        "32": "icons/32.png",
+        "48": "icons/48.png",
+        "96": "icons/96.png",
+        "192": "icons/192.png",
+        "512": "icons/512.png"
+    },
+    "manifest_version": 2
+}
