@@ -8,7 +8,9 @@ window.addEventListener('load', function() {
         for (i = 0; i < arr.length; i++) {
             var out = user_info[i].innerHTML;
             if (arr[i].firstName != null)
-                out = arr[i].firstName + " " + arr[i].lastName;
+                out = arr[i].firstName + " "
+            if (arr[i].lastName != null)
+                out += arr[i].lastName;
             user_info[i].innerHTML = out;
         }
     }
@@ -28,9 +30,18 @@ window.addEventListener('load', function() {
     }
 
     function helper(mycallback) {
-        var ans = user_info[0].innerHTML;
+        var ans = "";
+        if (user_info[0].innerHTML[0] != "<")
+            ans += user_info[0].innerHTML
+        else {
+            ans += user_info[0].innerHTML[42] + user_info[0].innerHTML.substring(50, user_info[0].innerHTML.length);
+        }
         for (var i = 1; i < user_info.length; i++) {
-            ans += ";" + user_info[i].innerHTML;
+            if (user_info[i].innerHTML[0] != "<")
+                ans += ";" + user_info[i].innerHTML
+            else {
+                ans += ";" + user_info[i].innerHTML[42] + user_info[i].innerHTML.substring(50, user_info[i].innerHTML.length);
+            }
         }
         mycallback(ans);
     }
