@@ -4,7 +4,7 @@ A web extension for both chromium and safari based browsers to view name of user
 ## Setup (Chrome/Brave)
 Clone the repo first with command
 ```git clone https://github.com/aditm7/CF-name-viewer.git```
-- Then open the browser head to this link for [brave](brave://extensions/) and for [chrome](chrome://extensions/)
+- Then open the browser head to this link:- brave://extensions/ or chrome://extensions/
 - Turn on the developer mode toggle
 <img src="/assets/1.png" alt="MarineGEO circle logo" />
 
