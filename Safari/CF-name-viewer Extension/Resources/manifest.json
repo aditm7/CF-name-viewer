@@ -3,7 +3,7 @@
     "version": "1.0",
     "description": "Replaces handles with the names",
     "content_scripts": [{
-        "matches": ["https://codeforces.com/contest/*/standings/friends/true", "https://codeforces.com/contest/*/standings"],
+        "matches": ["https://codeforces.com/contest/*/standings/friends/true", "https://codeforces.com/contest/*/standings", "https://codeforces.com/friends", "https://codeforces.com/ratings", "https://codeforces.com/ratings/*"],
         "run_at": "document_end",
         "js": ["jquery.min.js", "script.js"]
     }],
